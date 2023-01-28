@@ -27,6 +27,7 @@ class Conta{
             echo "A conta já está aberta.";
         }
     }
+    
     public function fecharConta(){
         if($this->getStatus() == 'Aberta' && $this->getSaldo() == 0){
             $this->setStatus('Fechada');

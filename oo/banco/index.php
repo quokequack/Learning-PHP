@@ -11,7 +11,7 @@
         <?php
         
         require_once 'Conta.php';
-        $conta1 = new Conta();
+         $conta1 = new Conta();
         $conta1->abrirConta(0001, 'Malu', 'CC');
         print_r($conta1);
 
