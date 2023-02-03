@@ -1,0 +1,15 @@
+{
+    "name": "quokequack/test",
+    "description": "first time using composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "quokequack",
+            "email": "roymustangtaizo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
